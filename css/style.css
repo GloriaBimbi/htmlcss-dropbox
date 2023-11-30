@@ -17,9 +17,55 @@ a {
   color: inherit;
 }
 
+:root {
+  --font-size-small: 12px;
+}
+
 /* UTILS */
 
-.container {
+.outside-container {
   max-width: 1080px;
   padding: 0;
 }
+
+.inside-container {
+  max-width: 1000px;
+  padding: 0;
+}
+
+.blue-button {
+  background-color: rgb(0 97 255);
+  color: white;
+  padding: 5px 15px;
+  border: 0;
+  font-size: var(--font-size-small);
+}
+
+/* HEADER */
+.header__d-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  min-width: 60px;
+  font-size: var(--font-size-small);
+}
+
+header a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header__section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/*header-left*/
+.logo-dropbox {
+  padding: 0 10px 10px 10px;
+}
+
+/* MAIN */
+
+/* FOOTER */
