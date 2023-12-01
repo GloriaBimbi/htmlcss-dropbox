@@ -26,6 +26,9 @@ a {
 
 :root {
   --font-size-small: 12px;
+  --blue-color: rgb(0 97 255);
+  --grey-border: 2px solid grey;
+  --padding-side: 20px;
 }
 
 /* UTILS */
@@ -33,16 +36,18 @@ a {
 .outside-container {
   max-width: 900px;
   padding-top: 50px;
+  margin: auto;
 }
 
 .inside-container {
   max-width: 800px;
-  padding: 0;
+  padding-top: 70px;
+  margin: auto;
 }
 
 .blue-button {
-  background-color: rgb(0 97 255);
   color: white;
+  background-color: var(--blue-color);
   padding: 10px 15px;
   border: 0;
   font-size: var(--font-size-small);
@@ -115,6 +120,91 @@ h1 {
 
 .img-start-section {
   width: 100%;
+}
+
+/* section plan */
+h2 {
+  padding: 50px 0;
+}
+
+.plan-type {
+  padding-right: 30px;
+}
+
+.inside-container form {
+  margin-bottom: 50px;
+}
+
+.plan-explanation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  min-height: 500px;
+  width: calc(100% / 3 - 30px);
+  border: var(--grey-border);
+}
+
+.generics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  min-height: 400px;
+  padding: var(--padding-side);
+}
+
+.users-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  padding: 10px 0;
+  border-bottom: var(--grey-border);
+}
+
+.plan-name {
+  padding: 20px 0;
+}
+
+.prize {
+  font-size: 10px;
+}
+
+.payment-time {
+  color: grey;
+  /* padding-bottom: 40px; */
+}
+
+.descriprion {
+  font-size: var(--font-size-small);
+}
+
+.user {
+  padding: 0 5px;
+}
+
+.details {
+  margin: 20px 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.buy {
+  color: blue;
+  text-decoration: underline;
+}
+
+.separator {
+  width: 40px;
+}
+
+.fa-check {
+  color: var(--blue-color);
 }
 
 /* FOOTER */
