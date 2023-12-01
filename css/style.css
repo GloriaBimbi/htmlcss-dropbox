@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+span {
+  display: block;
+}
+
 :root {
   --font-size-small: 12px;
   --blue-color: rgb(0 97 255);
@@ -406,7 +410,7 @@ h2 {
   align-items: center;
 }
 
-/* seztion questions */
+/* section questions */
 .questions {
   padding: 100px 0;
 }
@@ -415,15 +419,53 @@ h2 {
   padding-top: 0;
 }
 
-.questions span {
-  display: block;
-  padding: 30px 0;
-}
-
 .questions__d-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.questions span {
+  padding: 30px 0;
+}
 /* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.footer__list__d-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__list {
+  width: calc(100% / 5);
+}
+
+.footer__list h3 {
+  padding: 20px 0;
+}
+
+.footer__list span {
+  padding: 10px 0;
+  font-size: var(--font-size-small);
+}
+
+#space {
+  padding-bottom: 50px;
+}
+
+#footer-hr {
+  width: 50%;
+}
+
+.language {
+  font-size: var(--font-size-small);
+  color: grey;
+  padding: 20px 0;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
