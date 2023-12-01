@@ -259,7 +259,7 @@ h2 {
   font-size: var(--font-size-small);
 }
 
-.white-button {
+.grey-button {
   background-color: white;
   color: grey;
   border: 1px solid grey;
@@ -383,6 +383,27 @@ h2 {
 
 #clear-channel {
   background-color: rgb(255 216 48);
+}
+
+/* section free try */
+.free-try {
+  background-color: rgb(180 208 231);
+  min-height: 250px;
+}
+
+.free-try h2 {
+  color: rgb(97 8 43);
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+}
+
+.free-try .inside-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* FOOTER */
