@@ -406,4 +406,24 @@ h2 {
   align-items: center;
 }
 
+/* seztion questions */
+.questions {
+  padding: 100px 0;
+}
+
+.questions h2 {
+  padding-top: 0;
+}
+
+.questions span {
+  display: block;
+  padding: 30px 0;
+}
+
+.questions__d-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* FOOTER */
