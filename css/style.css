@@ -254,11 +254,37 @@ h2 {
   padding-bottom: 20px;
 }
 
+.partner-description > p {
+  font-size: var(--font-size-small);
+}
+
 .white-button {
   background-color: white;
   color: grey;
   border: 1px solid grey;
   margin-top: 30px;
+}
+
+/* section business */
+.business-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 3);
+  padding: var(--padding-side);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card > h3 {
+  padding: 20px 0;
+}
+
+.card > p {
+  font-size: var(--font-size-small);
 }
 
 /* FOOTER */
